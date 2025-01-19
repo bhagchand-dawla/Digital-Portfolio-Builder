@@ -1,0 +1,141 @@
+/* File: src/components/Profile.css */
+
+.profile-container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .user-details {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .user-details h2 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .user-details p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .projects-section {
+    margin-top: 2rem;
+  }
+  
+  .projects-section h3 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .project-detail {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-detail h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-detail p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-detail a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-detail a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-detail img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+  
+  .add-project-btn {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.75rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .add-project-btn:hover {
+    background-color: #218838;
+  }
+  
+  .add-project-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .add-project-form h3 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .add-project-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .add-project-form input,
+  .add-project-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .add-project-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-project-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-project-btn:hover {
+    background-color: #0056b3;
+  }
+  

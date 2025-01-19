@@ -1,0 +1,91 @@
+/* General styles */
+.dashboard {
+    padding: 2rem;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  /* Portfolio list container */
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  /* Portfolio card styles */
+  .portfolio-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .portfolio-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  /* Status colors */
+  .published {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .draft {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  /* View button */
+  .view-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .view-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .portfolio-card {
+      width: 100%;
+    }
+  
+    .portfolio-list {
+      gap: 1rem;
+    }
+  }
+  

@@ -1,0 +1,87 @@
+/* General styles for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo styles */
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Navigation styles */
+  .header .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header .nav-links li {
+    margin: 0;
+  }
+  
+  .header .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .header .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive menu toggle button */
+  .menu-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #0056b3; /* Darker shade of primary color */
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin-bottom: 1rem;
+    }
+  
+    .nav-links li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
